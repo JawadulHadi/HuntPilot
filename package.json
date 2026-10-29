@@ -1,6 +1,6 @@
 {
   "name": "huntpilot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "HuntPilot: a referral-first AI job search copilot. Templates, fit scoring and a tracker you can deploy to Copilot Studio, Claude Projects or a custom GPT.",
   "license": "MIT",
   "author": "Jawad Ul Hadi",

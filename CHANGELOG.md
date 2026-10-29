@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 (2026-10-29)
+
+- Optional `candidate.links` in the profile for extra public pages (second case study, credentials). The agent links the one that backs the point it is making.
+- Instructions now say facts.md wins over every other knowledge file, with metric phrases used word for word.
+
 ## 0.1.0 (2026-10-29)
 
 First release.

@@ -28,4 +28,10 @@ describe("validateProfile", () => {
     raw.scoring.thresholds.referral = 90;
     expect(() => validateProfile(raw)).toThrow(/referral/);
   });
+
+  it("defaults optional links to an empty list", () => {
+    const raw = example();
+    delete raw.candidate.links;
+    expect(validateProfile(raw).candidate.links).toEqual([]);
+  });
 });
