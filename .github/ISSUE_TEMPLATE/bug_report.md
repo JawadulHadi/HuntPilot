@@ -1,7 +1,10 @@
 ---
 name: Bug report
 about: The agent or the CLI did something wrong
+title: ''
 labels: bug
+assignees: ''
+
 ---
 
 **Platform:** Copilot Studio / Claude Project / custom GPT / CLI
