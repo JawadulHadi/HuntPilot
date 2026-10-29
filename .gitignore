@@ -1,0 +1,13 @@
+node_modules/
+dist/
+out/
+coverage/
+*.log
+.DS_Store
+
+# Your personal data never goes in the repo
+profile.yaml
+private/
+knowledge/
+*.local.yaml
+~$*.xlsx

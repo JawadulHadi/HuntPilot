@@ -1,0 +1,34 @@
+{
+  "name": "huntpilot",
+  "version": "0.1.0",
+  "description": "HuntPilot: a referral-first AI job search copilot. Templates, fit scoring and a tracker you can deploy to Copilot Studio, Claude Projects or a custom GPT.",
+  "license": "MIT",
+  "author": "Jawad Ul Hadi",
+  "type": "module",
+  "bin": {
+    "huntpilot": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "cli": "npm run -s build && node dist/cli.js",
+    "render": "npm run -s cli -- render",
+    "check": "npm run -s cli -- check",
+    "score": "npm run -s cli -- score",
+    "tracker": "npm run -s cli -- tracker",
+    "evals": "npm run -s cli -- evals",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "yaml": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.6.3",
+    "vitest": "2.1.8"
+  }
+}
