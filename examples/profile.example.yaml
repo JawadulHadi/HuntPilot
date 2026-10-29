@@ -21,6 +21,9 @@ candidate:
   case_study:
     title: Keeping an LLM feature up when the provider goes down
     url: https://example.com/llm-failover-case-study
+  # Optional: other public pages the agent may link, as "Label: URL".
+  links:
+    - "Credentials: https://example.com/credentials"
 
 targeting:
   roles: [Backend Lead, Backend Architect, AI Engineer, Senior Backend Engineer]

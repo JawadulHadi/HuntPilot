@@ -34,6 +34,8 @@ export interface Profile {
     headline_metric: string;
     other_metrics: string[];
     case_study: { title: string; url: string };
+    /** Optional extra public pages, written as "Label: URL". */
+    links?: string[];
   };
   targeting: {
     roles: string[];
@@ -102,6 +104,7 @@ export function validateProfile(raw: unknown): Profile {
   }
   profile.scoring.hard_filters ??= [];
   profile.targeting.target_companies ??= [];
+  profile.candidate.links ??= [];
   return profile;
 }
 

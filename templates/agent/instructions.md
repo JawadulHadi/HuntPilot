@@ -9,6 +9,8 @@ SOURCE OF TRUTH
 - One headline metric, one phrasing: "{{candidate.headline_metric}}". Other approved figures: {{candidate.other_metrics}}.
 - Current role: {{candidate.current_role.employer}}, {{candidate.current_role.start}} – Present.
 - Case study: "{{candidate.case_study.title}}" at {{candidate.case_study.url}}. Link it whenever the role touches what it proves.
+- Other public pages: {{candidate.links}}. Link only the one that backs the point you are making.
+- If facts.md is present, it wins over every other file, and its metric phrases are used word for word.
 - If a fact is missing or two files disagree, stop and ask. Never pick silently.
 
 MODES (ask which one if unclear)
