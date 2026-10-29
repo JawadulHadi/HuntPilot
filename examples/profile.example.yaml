@@ -1,0 +1,94 @@
+# HuntPilot profile: everything the agent knows about you and what you're looking for.
+# Copy to profile.yaml (git-ignored) and replace every value with your own.
+# This example is a fictional candidate.
+
+candidate:
+  name: Alex Rivera
+  title: Backend Lead / Architect
+  years: 7
+  core_stack: [NestJS, TypeScript, PostgreSQL, GraphQL, BullMQ, Redis, RAG, LLM integration]
+  timezone: UTC+1
+  working_hours: EST
+  home_country: Portugal
+  current_role:
+    employer: Example Systems
+    start: Jan 2024
+  # One headline metric, one phrasing. The agent uses it word for word everywhere.
+  headline_metric: "70% p95 latency drop (5s → 1.5s)"
+  other_metrics:
+    - 40% fewer integration incidents
+    - 99.95% API uptime
+  case_study:
+    title: Keeping an LLM feature up when the provider goes down
+    url: https://example.com/llm-failover-case-study
+
+targeting:
+  roles: [Backend Lead, Backend Architect, AI Engineer, Senior Backend Engineer]
+  region: US/Canada
+  variants:
+    A:
+      name: Backend Lead / Architect
+      focus: leadership, architecture, multi-tenant SaaS, owning microservices
+      keywords: [lead, architect, architecture, ownership, mentor, multi-tenant, microservices, staff, principal]
+    B:
+      name: AI / LLM Engineer
+      focus: provider-agnostic LLM layer, RAG, failure handling
+      keywords: [llm, rag, ai engineer, embeddings, vector, openai, anthropic, prompt, agents, evals]
+    C:
+      name: Senior Backend Engineer
+      focus: PostgreSQL, GraphQL, event-driven throughput, BullMQ, Redis
+      keywords: [postgresql, postgres, graphql, event-driven, kafka, bullmq, redis, queues, throughput, api]
+  # Companies where you'd always rather go in through a referral.
+  target_companies: []
+
+scoring:
+  thresholds:
+    apply: 75
+    referral: 60
+  # Points must add up to 100.
+  areas:
+    - label: Core stack
+      points: 30
+      need: 3
+      keywords: [nestjs, node.js, nodejs, typescript, postgresql, postgres]
+    - label: Seniority
+      points: 20
+      need: 1
+      keywords: [senior, staff, lead, principal, architect]
+    - label: AI / LLM
+      points: 15
+      need: 2
+      keywords: [llm, rag, ai, embeddings, vector, agents, openai, anthropic]
+    - label: Supporting stack
+      points: 10
+      need: 2
+      keywords: [graphql, bullmq, redis, kafka, event-driven, queues, microservices]
+    - label: Remote fit
+      points: 15
+      need: 1
+      keywords: [remote, worldwide, anywhere, distributed, async, americas]
+    - label: Company signal
+      points: 10
+      need: 2
+      keywords: [product, platform, saas, customers, series a, series b, engineering team]
+  # Any match means Skip. Edit these to match your own work authorization.
+  hard_filters:
+    - name: Requires US work authorization
+      pattern: "(must|need to|required to) (be )?(legally )?authori[sz]ed to work in the (us|u\\.s\\.|united states)"
+    - name: Must live in the US or Canada
+      pattern: "must (reside|live|be located|be based) in the (us|u\\.s\\.|united states|canada)"
+    - name: Citizenship or clearance
+      pattern: "(us citizen(ship)?|green card|security clearance|ts/sci)"
+    - name: No visa sponsorship (and no contractor option)
+      pattern: "(no|not able to|unable to|cannot) (provide |offer )?(visa )?sponsor"
+    - name: Onsite only
+      pattern: "(onsite|on-site|in office) (only|required)|no remote"
+
+tracker:
+  path: /JobSearch/JobTracker.xlsx
+  table: Applications
+
+writing:
+  banned_words: [passionate, results-driven, leverage, cutting-edge, rockstar, synergy]
+  cover_letter_max_words: 250
+  outreach_max_words: 90

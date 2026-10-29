@@ -1,0 +1,6 @@
+Senior Backend Engineer (Remote, Americas)
+Acme is a product company building a SaaS platform for logistics customers.
+You'll own the design of our NestJS and TypeScript services on PostgreSQL.
+We use GraphQL, BullMQ and Redis for event-driven processing.
+You'll also help build our LLM features with RAG and embeddings.
+Fully remote, async-friendly team.
