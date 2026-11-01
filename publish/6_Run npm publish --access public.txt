@@ -1,0 +1,50 @@
+﻿2026-11-01T18:23:26.1615852Z ##[group]Run npm publish --access public
+2026-11-01T18:23:26.1616179Z [36;1mnpm publish --access public[0m
+2026-11-01T18:23:26.1634203Z shell: /usr/bin/bash -e {0}
+2026-11-01T18:23:26.1634415Z env:
+2026-11-01T18:23:26.1634628Z   NPM_CONFIG_USERCONFIG: /home/runner/work/_temp/.npmrc
+2026-11-01T18:23:26.1635086Z   NODE_AUTH_TOKEN: ***
+2026-11-01T18:23:26.1635298Z ##[endgroup]
+2026-11-01T18:23:26.4889325Z npm notice
+2026-11-01T18:23:26.4890357Z npm notice 📦  huntpilot@0.2.1
+2026-11-01T18:23:26.4890828Z npm notice Tarball Contents
+2026-11-01T18:23:26.4892470Z npm notice 1.1kB LICENSE
+2026-11-01T18:23:26.4893677Z npm notice 5.8kB README.md
+2026-11-01T18:23:26.4894095Z npm notice 2.0kB dist/check.js
+2026-11-01T18:23:26.4894476Z npm notice 4.5kB dist/cli.js
+2026-11-01T18:23:26.4895432Z npm notice 921B dist/evals.js
+2026-11-01T18:23:26.4895864Z npm notice 1.8kB dist/profile.js
+2026-11-01T18:23:26.4896310Z npm notice 2.4kB dist/render.js
+2026-11-01T18:23:26.4897070Z npm notice 2.9kB dist/score.js
+2026-11-01T18:23:26.4897671Z npm notice 2.9kB dist/tracker.js
+2026-11-01T18:23:26.4898245Z npm notice 1.7kB docs/fit-scoring.md
+2026-11-01T18:23:26.4898769Z npm notice 1.8kB docs/publishing.md
+2026-11-01T18:23:26.4899397Z npm notice 1.0kB docs/setup-claude-project.md
+2026-11-01T18:23:26.4899987Z npm notice 3.0kB docs/setup-copilot-studio.md
+2026-11-01T18:23:26.4900532Z npm notice 941B docs/setup-custom-gpt.md
+2026-11-01T18:23:26.4901035Z npm notice 1.3kB docs/testing.md
+2026-11-01T18:23:26.4901552Z npm notice 3.7kB examples/profile.example.yaml
+2026-11-01T18:23:26.4902057Z npm notice 943B package.json
+2026-11-01T18:23:26.4902571Z npm notice 3.5kB templates/agent/instructions.md
+2026-11-01T18:23:26.4903147Z npm notice 676B templates/agent/prompts.md
+2026-11-01T18:23:26.4903827Z npm notice 4.4kB templates/agent/skills/job-application-workflow.md
+2026-11-01T18:23:26.4904545Z npm notice 1.7kB templates/agent/skills/job-discovery.md
+2026-11-01T18:23:26.4905232Z npm notice 2.1kB templates/agent/skills/referral-first.md
+2026-11-01T18:23:26.4905797Z npm notice Tarball Details
+2026-11-01T18:23:26.4906206Z npm notice name: huntpilot
+2026-11-01T18:23:26.4906762Z npm notice version: 0.2.1
+2026-11-01T18:23:26.4907253Z npm notice filename: huntpilot-0.2.1.tgz
+2026-11-01T18:23:26.4907758Z npm notice package size: 19.0 kB
+2026-11-01T18:23:26.4908226Z npm notice unpacked size: 51.2 kB
+2026-11-01T18:23:26.4908804Z npm notice shasum: ae6fc33ef50a70227e2fbcc4ce4a4483eed88f67
+2026-11-01T18:23:26.4909546Z npm notice integrity: sha512-2RlupUlB/5tfN[...]2mOs+8wl/Y4tw==
+2026-11-01T18:23:26.4910100Z npm notice total files: 22
+2026-11-01T18:23:26.4910482Z npm notice
+2026-11-01T18:23:26.4911121Z npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+2026-11-01T18:23:26.8364536Z npm error code E403
+2026-11-01T18:23:26.8365607Z npm error 403 403 Forbidden - PUT https://registry.npmjs.org/huntpilot - You may not perform that action with these credentials.
+2026-11-01T18:23:26.8366821Z npm error 403 In most cases, you or one of your dependencies are requesting
+2026-11-01T18:23:26.8367693Z npm error 403 a package version that is forbidden by your security policy, or
+2026-11-01T18:23:26.8368347Z npm error 403 on a server you do not have access to.
+2026-11-01T18:23:26.8371585Z npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-01T18_23_26_206Z-debug-0.log
+2026-11-01T18:23:26.8468162Z ##[error]Process completed with exit code 1.

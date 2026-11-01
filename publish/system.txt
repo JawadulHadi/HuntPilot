@@ -1,0 +1,8 @@
+2026-11-01T18:23:16.8870000Z Evaluating publish.if
+2026-11-01T18:23:16.8870000Z Evaluating: success()
+2026-11-01T18:23:16.8870000Z Result: true
+2026-11-01T18:23:16.8890000Z Requested labels: ubuntu-latest
+2026-11-01T18:23:16.8890000Z Job defined at: JawadulHadi/HuntPilot/.github/workflows/publish.yml@refs/tags/v0.2.1
+2026-11-01T18:23:16.8890000Z Waiting for a runner to pick up this job...
+2026-11-01T18:23:17.2270000Z Job is about to start running on the hosted runner: GitHub Actions 1000001335
+2026-11-01T18:23:17.2270000Z Job is waiting for a hosted runner to come online.

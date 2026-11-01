@@ -1,0 +1,89 @@
+﻿2026-11-01T18:23:20.6785271Z ##[group]Run actions/checkout@v4
+2026-11-01T18:23:20.6786018Z with:
+2026-11-01T18:23:20.6786444Z   repository: JawadulHadi/HuntPilot
+2026-11-01T18:23:20.6790075Z   token: ***
+2026-11-01T18:23:20.6790477Z   ssh-strict: true
+2026-11-01T18:23:20.6790885Z   ssh-user: git
+2026-11-01T18:23:20.6791295Z   persist-credentials: true
+2026-11-01T18:23:20.6791735Z   clean: true
+2026-11-01T18:23:20.6792149Z   sparse-checkout-cone-mode: true
+2026-11-01T18:23:20.6792627Z   fetch-depth: 1
+2026-11-01T18:23:20.6793022Z   fetch-tags: false
+2026-11-01T18:23:20.6793423Z   show-progress: true
+2026-11-01T18:23:20.6793861Z   lfs: false
+2026-11-01T18:23:20.6794253Z   submodules: false
+2026-11-01T18:23:20.6794676Z   set-safe-directory: true
+2026-11-01T18:23:20.6795134Z   allow-unsafe-pr-checkout: false
+2026-11-01T18:23:20.6795763Z ##[endgroup]
+2026-11-01T18:23:20.8621734Z Syncing repository: JawadulHadi/HuntPilot
+2026-11-01T18:23:20.8623937Z ##[group]Getting Git version info
+2026-11-01T18:23:20.8624600Z Working directory is '/home/runner/work/HuntPilot/HuntPilot'
+2026-11-01T18:23:20.8626138Z [command]/usr/bin/git version
+2026-11-01T18:23:20.8675456Z git version 2.56.0
+2026-11-01T18:23:20.8699656Z ##[endgroup]
+2026-11-01T18:23:20.8712627Z Temporarily overriding HOME='/home/runner/work/_temp/23b7f712-e349-4b60-b12d-ad267dc961b0' before making global git config changes
+2026-11-01T18:23:20.8714682Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T18:23:20.8717778Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/HuntPilot/HuntPilot
+2026-11-01T18:23:20.8771035Z Deleting the contents of '/home/runner/work/HuntPilot/HuntPilot'
+2026-11-01T18:23:20.8778357Z ##[group]Initializing the repository
+2026-11-01T18:23:20.8779914Z [command]/usr/bin/git init /home/runner/work/HuntPilot/HuntPilot
+2026-11-01T18:23:20.8852863Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T18:23:20.8854409Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T18:23:20.8855950Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T18:23:20.8856808Z hint: call:
+2026-11-01T18:23:20.8857358Z hint:
+2026-11-01T18:23:20.8857819Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T18:23:20.8858603Z hint:
+2026-11-01T18:23:20.8859416Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T18:23:20.8860721Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T18:23:20.8861687Z hint:
+2026-11-01T18:23:20.8862083Z hint: 	git branch -m <name>
+2026-11-01T18:23:20.8862603Z hint:
+2026-11-01T18:23:20.8863487Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T18:23:20.8864971Z Initialized empty Git repository in /home/runner/work/HuntPilot/HuntPilot/.git/
+2026-11-01T18:23:20.8870174Z [command]/usr/bin/git remote add origin https://github.com/JawadulHadi/HuntPilot
+2026-11-01T18:23:20.8944147Z ##[endgroup]
+2026-11-01T18:23:20.8944895Z ##[group]Disabling automatic garbage collection
+2026-11-01T18:23:20.8948171Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T18:23:20.8979114Z ##[endgroup]
+2026-11-01T18:23:20.8979801Z ##[group]Setting up auth
+2026-11-01T18:23:20.8985037Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T18:23:20.9016493Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T18:23:20.9325893Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T18:23:20.9366013Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T18:23:20.9574362Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T18:23:20.9613212Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T18:23:20.9818526Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T18:23:20.9860805Z ##[endgroup]
+2026-11-01T18:23:20.9862033Z ##[group]Fetching the repository
+2026-11-01T18:23:20.9871385Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c6e9c4831d014312ea41001ff4d93981f3b4d2d2:refs/tags/v0.2.1
+2026-11-01T18:23:21.3693666Z From https://github.com/JawadulHadi/HuntPilot
+2026-11-01T18:23:21.3695476Z  * [new ref]         c6e9c4831d014312ea41001ff4d93981f3b4d2d2 -> v0.2.1
+2026-11-01T18:23:21.3698750Z ##[endgroup]
+2026-11-01T18:23:21.3700063Z ##[group]Determining the checkout info
+2026-11-01T18:23:21.3701134Z ##[endgroup]
+2026-11-01T18:23:21.3704245Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T18:23:21.3754162Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T18:23:21.3789266Z ##[group]Checking out the ref
+2026-11-01T18:23:21.3800666Z [command]/usr/bin/git checkout --progress --force refs/tags/v0.2.1
+2026-11-01T18:23:21.3867477Z Note: switching to 'refs/tags/v0.2.1'.
+2026-11-01T18:23:21.3868412Z 
+2026-11-01T18:23:21.3869152Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-11-01T18:23:21.3870851Z changes and commit them, and you can discard any commits you make in this
+2026-11-01T18:23:21.3872225Z state without impacting any branches by switching back to a branch.
+2026-11-01T18:23:21.3872995Z 
+2026-11-01T18:23:21.3873538Z If you want to create a new branch to retain commits you create, you may
+2026-11-01T18:23:21.3874924Z do so (now or later) by using -c with the switch command. Example:
+2026-11-01T18:23:21.3875766Z 
+2026-11-01T18:23:21.3876094Z   git switch -c <new-branch-name>
+2026-11-01T18:23:21.3877113Z 
+2026-11-01T18:23:21.3877622Z Or undo this operation with:
+2026-11-01T18:23:21.3878270Z 
+2026-11-01T18:23:21.3878693Z   git switch -
+2026-11-01T18:23:21.3879207Z 
+2026-11-01T18:23:21.3879961Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-11-01T18:23:21.3880902Z 
+2026-11-01T18:23:21.3881819Z HEAD is now at c6e9c48 chore: add .npmignore, bump to 0.2.1, protect personal data from publish
+2026-11-01T18:23:21.3885238Z ##[endgroup]
+2026-11-01T18:23:21.3917053Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T18:23:21.3945336Z c6e9c4831d014312ea41001ff4d93981f3b4d2d2
