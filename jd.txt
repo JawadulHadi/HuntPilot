@@ -1,0 +1,42 @@
+Senior Backend Engineer — AI Platform
+Remote (Worldwide) | Full-time or Contract
+
+About us
+We are a Series B SaaS platform serving enterprise customers across APAC and the Americas. Our engineering team of 40 ships product in two-week cycles and owns everything from database schema to deployment.
+
+The role
+We are looking for a Senior Backend Engineer to lead backend development on our AI-first product platform. You will own the design and delivery of core services, mentor junior engineers, and work closely with the product team to turn requirements into reliable, scalable systems.
+
+What you will do
+- Design and build backend services using Node.js, NestJS, and TypeScript
+- Own the PostgreSQL schema and write query-optimised data access layers
+- Build and maintain a provider-agnostic LLM integration layer across OpenAI, Anthropic, and other providers
+- Implement RAG pipelines and AI agent workflows for our product's intelligent features
+- Design event-driven architecture using Redis and async job queues for high-throughput workloads
+- Build and maintain REST and GraphQL APIs consumed by web and mobile clients
+- Lead code reviews, architecture decisions, and mentoring of 2-3 associate engineers
+- Set up and improve CI/CD pipelines using GitHub Actions
+- Collaborate on multi-tenant SaaS isolation patterns and data security
+
+What we are looking for
+- 6+ years of backend engineering experience, with at least 2 years in a senior or lead role
+- Strong command of Node.js, NestJS, and TypeScript
+- Deep experience with PostgreSQL including query tuning, indexing, and schema migrations
+- Experience building LLM-powered features and working with AI APIs (OpenAI, Anthropic, Gemini)
+- Familiarity with RAG, embeddings, and vector search
+- Experience with Redis, BullMQ, or similar async job processing systems
+- GraphQL API design and implementation
+- Experience with Docker, Kubernetes, and cloud platforms (AWS or GCP)
+- Comfortable working fully remote and async across time zones
+
+Nice to have
+- Experience with MCP servers or AI agent frameworks
+- Python / FastAPI for data or ML service integration
+- MongoDB or other NoSQL databases
+- Prior experience in multi-tenant SaaS platforms
+
+Work setup
+This is a fully remote position open to candidates worldwide. We work async-first with core overlap hours aligned to EST. We welcome applications from APAC, Europe, and the Americas.
+
+Compensation
+Competitive salary or contract rate depending on location and experience. Equity available for full-time roles.
