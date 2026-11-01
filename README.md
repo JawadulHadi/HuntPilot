@@ -9,16 +9,17 @@ HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in o
 
 ## What it does
 
-| Mode | What you get |
-| --- | --- |
-| Find jobs | Fresh roles from company boards (Greenhouse, Lever, Ashby) and remote boards, opened, scored and de-duplicated against your tracker |
-| Analyse a JD | Requirement-by-requirement fit table, a 0–100 score, the resume variant to use, and a verdict: Apply, Referral first or Skip |
-| Hard filters | Skips roles you can't take (work authorization, onsite only, unpaid trials) and quotes the line that blocks you |
-| Tailor | Resume bullets reordered for the role, from your facts only, in an ATS-safe single column |
-| Referral first | Finds a warm route in (maintainers, blog authors, community members) and drafts a 90-word ask |
-| Write | Cover letters capped at 250 words with your one headline metric, word for word |
-| Interview prep | Likely questions, STAR outlines from your real experience, and mock interviews one question at a time |
-| Tracker | Logs and updates an Excel table with stable IDs, statuses and follow-up dates |
+
+| Mode           | What you get                                                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Find jobs      | Fresh roles from company boards (Greenhouse, Lever, Ashby) and remote boards, opened, scored and de-duplicated against your tracker |
+| Analyse a JD   | Requirement-by-requirement fit table, a 0–100 score, the resume variant to use, and a verdict: Apply, Referral first or Skip       |
+| Hard filters   | Skips roles you can't take (work authorization, onsite only, unpaid trials) and quotes the line that blocks you                     |
+| Tailor         | Resume bullets reordered for the role, from your facts only, in an ATS-safe single column                                           |
+| Referral first | Finds a warm route in (maintainers, blog authors, community members) and drafts a 90-word ask                                       |
+| Write          | Cover letters capped at 250 words with your one headline metric, word for word                                                      |
+| Interview prep | Likely questions, STAR outlines from your real experience, and mock interviews one question at a time                               |
+| Tracker        | Logs and updates an Excel table with stable IDs, statuses and follow-up dates                                                       |
 
 ## How it fits together
 

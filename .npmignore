@@ -1,0 +1,27 @@
+# Personal data — never publish
+profile.yaml
+*.pdf
+*.xlsx
+
+# Rendered output (contains personal profile data)
+out/
+
+# Dev/build inputs
+src/
+tests/
+tsconfig.json
+vitest.config.ts
+evals/
+
+# GitHub/editor config
+.github/
+.vscode/
+.claude/
+.offline-markdown-preview/
+
+# Misc files that shouldn't be in the package
+*.md.bak
+publish workflow exists.md
+CONTRIBUTING.md
+SECURITY.md
+CHANGELOG.md

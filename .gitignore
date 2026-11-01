@@ -7,7 +7,10 @@ coverage/
 
 # Your personal data never goes in the repo
 profile.yaml
+*.pdf
+*.xlsx
 private/
 knowledge/
 *.local.yaml
-~$*.xlsx
+.offline-markdown-preview/
+publish workflow exists.md
