@@ -25,7 +25,7 @@ export interface AgentFiles {
 }
 
 export function loadAgent(templateDir: string, profile: Profile): AgentFiles {
-  const read = (rel: string) => fill(readFileSync(join(templateDir, rel), "utf8"), profile);
+  const read = (rel: string) => fill(readFileSync(join(templateDir, rel), "utf8").replace(/\r\n/g, "\n"), profile);
   const skillDir = join(templateDir, "skills");
   const skills = readdirSync(skillDir)
     .filter((f) => f.endsWith(".md"))
