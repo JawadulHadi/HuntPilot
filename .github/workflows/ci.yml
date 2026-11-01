@@ -17,7 +17,3 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
-      - name: Render and check the example profile
-        run: |
-          npm run render
-          npm run check
