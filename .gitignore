@@ -14,3 +14,11 @@ knowledge/
 *.local.yaml
 .offline-markdown-preview/
 publish workflow exists.md
+
+# CI artifacts and personal data
+publish/
+jd.txt
+v4({}
+v5('x'
+v6({}
+

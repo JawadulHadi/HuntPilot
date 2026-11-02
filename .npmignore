@@ -25,3 +25,12 @@ publish workflow exists.md
 CONTRIBUTING.md
 SECURITY.md
 CHANGELOG.md
+
+# CI artifacts and personal data
+publish/
+jd.txt
+v4({}
+v5('x'
+v6({}
+*.txt
+
