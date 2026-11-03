@@ -5,12 +5,20 @@
   "license": "MIT",
   "author": "Jawad Ul Hadi",
   "type": "module",
-  "files": ["dist", "templates", "examples", "docs", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "templates",
+    "examples",
+    "evals",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ],
   "bin": {
     "huntpilot": "dist/cli.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=24.0.0"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -28,7 +36,7 @@
     "yaml": "2.8.3"
   },
   "devDependencies": {
-    "@types/node": "22.15.21",
+    "@types/node": "^22.20.5",
     "typescript": "5.6.3",
     "vitest": "5.0.5"
   }
