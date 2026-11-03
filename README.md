@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="HuntPilot banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/logo.svg" alt="HuntPilot logo" width="96" />
+</p>
+
 # HuntPilot
 
 **A referral-first AI job search copilot.** It finds roles, scores your fit, writes tailored resumes and cover letters, asks for a referral before you apply cold, and keeps your tracker up to date. It drafts everything and sends nothing.

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.2.2 (2026-11-03)
+
+- Added `evals/` to the published package `files` allowlist so `huntpilot evals` works from the installed package.
+- Repository hygiene: removed committed personal data and CI artifacts; added ignore rules.
+- Added project logo and banner assets and a Code of Conduct.
+
+## 0.2.1 (2026-11-01)
+
+- Fix: normalize CRLF line endings when reading templates on Windows.
+- Add `.npmignore`, bump version, and protect personal data from publish.
+- Add GitHub Actions workflow for publishing.
+- Restrict CI and publish workflow token permissions.
+
 ## 0.2.0 (2026-10-29)
 
 - Optional `candidate.links` in the profile for extra public pages (second case study, credentials). The agent links the one that backs the point it is making.
