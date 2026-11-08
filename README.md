@@ -52,8 +52,8 @@ The agent does the reading and writing. The CLI keeps the setup consistent: one 
 Requires Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/JawadulHadi/job_hunt.git
-cd job_hunt
+git clone https://github.com/JawadulHadi/HuntPilot.git
+cd HuntPilot
 npm install
 
 cp examples/profile.example.yaml profile.yaml   # git-ignored; edit it with your own facts
