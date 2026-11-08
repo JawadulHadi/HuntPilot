@@ -3,6 +3,9 @@ description: >-
   A referral-first AI job search copilot — templates, fit scoring and
   a tracker for Copilot Studio, Claude Projects and custom GPTs.
 
+url: https://jawadulhadi.github.io
+baseurl: /huntpilot
+
 theme: jekyll-theme-cayman
 
 plugins:

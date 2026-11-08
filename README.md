@@ -12,8 +12,8 @@
 
 HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in one profile file and render paste-ready files for **Microsoft Copilot Studio**, a **Claude Project** or a **custom GPT**.
 
-[![CI](https://github.com/JawadulHadi/job_hunt/actions/workflows/ci.yml/badge.svg)](https://github.com/JawadulHadi/job_hunt/actions/workflows/ci.yml)
-[![Pages](https://github.com/JawadulHadi/job_hunt/actions/workflows/pages.yml/badge.svg)](https://jawadulhadi.github.io/job_hunt)
+[![CI](https://github.com/JawadulHadi/huntpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/JawadulHadi/huntpilot/actions/workflows/ci.yml)
+[![Pages](https://github.com/JawadulHadi/huntpilot/actions/workflows/pages.yml/badge.svg)](https://jawadulhadi.github.io/huntpilot)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## What it does
@@ -52,8 +52,8 @@ The agent does the reading and writing. The CLI keeps the setup consistent: one 
 Requires Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/JawadulHadi/job_hunt.git
-cd job_hunt
+git clone https://github.com/JawadulHadi/huntpilot.git
+cd huntpilot
 npm install
 
 cp examples/profile.example.yaml profile.yaml   # git-ignored; edit it with your own facts
