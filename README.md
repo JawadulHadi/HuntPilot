@@ -12,8 +12,8 @@
 
 HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in one profile file and render paste-ready files for **Microsoft Copilot Studio**, a **Claude Project** or a **custom GPT**.
 
-[![CI](https://github.com/JawadulHadi/job_hunt/actions/workflows/ci.yml/badge.svg)](https://github.com/JawadulHadi/job_hunt/actions/workflows/ci.yml)
-[![Pages](https://github.com/JawadulHadi/job_hunt/actions/workflows/pages.yml/badge.svg)](https://jawadulhadi.github.io/job_hunt)
+[![CI](https://github.com/JawadulHadi/HuntPilot/actions/workflows/ci.yml/badge.svg)](https://github.com/JawadulHadi/HuntPilot/actions/workflows/ci.yml)
+[![Pages](https://github.com/JawadulHadi/HuntPilot/actions/workflows/pages.yml/badge.svg)](https://jawadulhadi.github.io/HuntPilot)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## What it does
