@@ -2,15 +2,11 @@
   <img src="assets/banner.svg" alt="HuntPilot banner" width="100%" />
 </p>
 
-<p align="center">
-  <img src="assets/logo.svg" alt="HuntPilot logo" width="96" />
-</p>
-
 # HuntPilot
 
 **A referral-first AI job search copilot.** It finds roles, scores your fit, writes tailored resumes and cover letters, asks for a referral before you apply cold, and keeps your tracker up to date. It drafts everything and sends nothing.
 
-HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in one profile file and render paste-ready files for **Microsoft Copilot Studio**, a **Claude Project** or a **custom GPT**.
+HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in one profile file and render paste-ready files for **Microsoft Copilot Studio**, a **Claude Project**, or a **custom GPT**.
 
 [![CI](https://github.com/JawadulHadi/huntpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/JawadulHadi/huntpilot/actions/workflows/ci.yml)
 [![Pages](https://github.com/JawadulHadi/huntpilot/actions/workflows/pages.yml/badge.svg)](https://jawadulhadi.github.io/huntpilot)
@@ -124,3 +120,17 @@ Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) © 2026 Jawad Ul Hadi
+<div align="center">
+**Let's build something resilient together.**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://juhbukhari.vercel.app)
+[![Résumé](https://img.shields.io/badge/Résumé-4B5563?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://juhbukhari.vercel.app/resume.pdf)
+[![Case Study](https://img.shields.io/badge/Case_Study-7C3AED?style=flat-square&logo=readthedocs&logoColor=white)](https://juhbukhari.vercel.app/case-study)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jawad-ul-hadi)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/JawadulHadi)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/19086162/jawad-ul-hadi)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-1317-4615)
+[![Book a call](https://img.shields.io/badge/Book_a_call-006BFF?style=flat-square&logo=calendly&logoColor=white)](https://calendly.com/jawadulhadicc)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jawadulhadicc@gmail.com?subject=Hello%20Jawad&body=Hi%20Jawad%2C%0A%0AI%20came%20across%20your%20profile.)
+</div> 
+
