@@ -1,0 +1,22 @@
+title: HuntPilot
+description: >-
+  A referral-first AI job search copilot — templates, fit scoring and
+  a tracker for Copilot Studio, Claude Projects and custom GPTs.
+
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-seo-tag
+
+# keep node_modules and build output out of the Jekyll build
+exclude:
+  - node_modules/
+  - dist/
+  - "*.log"
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - vitest.config.ts
+  - src/
+  - tests/
+  - evals/
