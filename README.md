@@ -16,15 +16,15 @@ HuntPilot is a set of agent templates plus a small TypeScript CLI. You fill in o
 
 
 | Mode           | What you get                                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Find jobs      | Fresh roles from company boards (Greenhouse, Lever, Ashby) and remote boards, opened, scored and de-duplicated against your tracker |
-| Analyse a JD   | Requirement-by-requirement fit table, a 0–100 score, the resume variant to use, and a verdict: Apply, Referral first or Skip       |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Find jobs      | Fresh roles from company boards (Greenhouse, Lever, Ashby) and remote boards, opened, scored, and de-duplicated against your tracker |
+| Analyse a JD   | Requirement-by-requirement fit table, a 0–100 score, the resume variant to use, and a verdict: Apply, Referral first, or Skip       |
 | Hard filters   | Skips roles you can't take (work authorization, onsite only, unpaid trials) and quotes the line that blocks you                     |
 | Tailor         | Resume bullets reordered for the role, from your facts only, in an ATS-safe single column                                           |
 | Referral first | Finds a warm route in (maintainers, blog authors, community members) and drafts a 90-word ask                                       |
 | Write          | Cover letters capped at 250 words with your one headline metric, word for word                                                      |
 | Interview prep | Likely questions, STAR outlines from your real experience, and mock interviews one question at a time                               |
-| Tracker        | Logs and updates an Excel table with stable IDs, statuses and follow-up dates                                                       |
+| Tracker        | Logs and updates an Excel table with stable IDs, statuses, and follow-up dates                                                       |
 
 ## How it fits together
 
@@ -85,9 +85,9 @@ Blockers:
 - Requires US work authorization: "Candidates must be authorized to work in the United States."
 ```
 
-A 75 would normally be Apply. The work-authorization line turns it into Skip, before you spend time tailoring.
+A 75 would normally be Apply. The work-authorization line turns it into Skip before you spend time tailoring.
 
-The rubric, thresholds and hard filters all live in your profile. See [docs/fit-scoring.md](docs/fit-scoring.md).
+The rubric, thresholds, and hard filters all live in your profile. See [docs/fit-scoring.md](docs/fit-scoring.md).
 
 ## Test before you trust it
 
@@ -97,15 +97,15 @@ Run the 14 cases in [evals/cases.yaml](evals/cases.yaml) against your deployed a
 
 - Drafts only. It never sends email or messages, and never submits applications.
 - It never overwrites your resume or any file it didn't create.
-- It never invents employers, dates, metrics or certifications. Missing facts go to a "Needs your input" list.
-- It won't guarantee legal, immigration, tax or salary outcomes.
+- It never invents employers, dates, metrics, or certifications. Missing facts go to a "Needs your input" list.
+- It won't guarantee legal, immigration, tax, or salary outcomes.
 
 **Keep your configured agent private.** It holds your resume and can reach your files and email. Share this template, not your instance. See [docs/publishing.md](docs/publishing.md).
 
 ## Repository layout
 
 ```text
-templates/agent/   instructions, skills and prompts with {{profile.tokens}}
+templates/agent/   instructions, skills, and prompts with {{profile.tokens}}
 examples/          a fictional example profile
 evals/             test cases
 src/               the huntpilot CLI (TypeScript)
@@ -118,9 +118,10 @@ docs/              setup, scoring, testing and publishing guides
 Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
-
 [MIT](LICENSE) © 2026 Jawad Ul Hadi
+
 <div align="center">
+  
 **Let's build something resilient together.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://juhbukhari.vercel.app)
